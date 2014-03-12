@@ -21,6 +21,11 @@
 		6F0B76E418CF8F4600C05779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0B76C618CF8F4600C05779 /* UIKit.framework */; };
 		6F0B76EC18CF8F4600C05779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F0B76EA18CF8F4600C05779 /* InfoPlist.strings */; };
 		6F0B76EE18CF8F4600C05779 /* AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B76ED18CF8F4600C05779 /* AdventureTests.m */; };
+		6F0B76F818CF935300C05779 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0B76F718CF935300C05779 /* CheckMate.framework */; };
+		6F0B76FB18CF98D400C05779 /* ChoiceViewControllerClear.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B76FA18CF98D400C05779 /* ChoiceViewControllerClear.m */; };
+		6F0B76FE18CF98EA00C05779 /* ChoiceViewControllerEat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B76FD18CF98EA00C05779 /* ChoiceViewControllerEat.m */; };
+		6F0B770118CFA86000C05779 /* SuckerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B770018CFA86000C05779 /* SuckerViewController.m */; };
+		6F0B770418CFA86F00C05779 /* SaturdayNightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B770318CFA86F00C05779 /* SaturdayNightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		6F0B76E918CF8F4600C05779 /* AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		6F0B76EB18CF8F4600C05779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F0B76ED18CF8F4600C05779 /* AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureTests.m; sourceTree = "<group>"; };
+		6F0B76F718CF935300C05779 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CheckMate.framework; sourceTree = "<group>"; };
+		6F0B76F918CF98D400C05779 /* ChoiceViewControllerClear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceViewControllerClear.h; sourceTree = "<group>"; };
+		6F0B76FA18CF98D400C05779 /* ChoiceViewControllerClear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceViewControllerClear.m; sourceTree = "<group>"; };
+		6F0B76FC18CF98EA00C05779 /* ChoiceViewControllerEat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceViewControllerEat.h; sourceTree = "<group>"; };
+		6F0B76FD18CF98EA00C05779 /* ChoiceViewControllerEat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceViewControllerEat.m; sourceTree = "<group>"; };
+		6F0B76FF18CFA86000C05779 /* SuckerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuckerViewController.h; sourceTree = "<group>"; };
+		6F0B770018CFA86000C05779 /* SuckerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuckerViewController.m; sourceTree = "<group>"; };
+		6F0B770218CFA86F00C05779 /* SaturdayNightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaturdayNightViewController.h; sourceTree = "<group>"; };
+		6F0B770318CFA86F00C05779 /* SaturdayNightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaturdayNightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0B76F818CF935300C05779 /* CheckMate.framework in Frameworks */,
 				6F0B76C518CF8F4600C05779 /* CoreGraphics.framework in Frameworks */,
 				6F0B76C718CF8F4600C05779 /* UIKit.framework in Frameworks */,
 				6F0B76C318CF8F4600C05779 /* Foundation.framework in Frameworks */,
@@ -101,6 +116,7 @@
 		6F0B76C118CF8F4600C05779 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F0B76F718CF935300C05779 /* CheckMate.framework */,
 				6F0B76C218CF8F4600C05779 /* Foundation.framework */,
 				6F0B76C418CF8F4600C05779 /* CoreGraphics.framework */,
 				6F0B76C618CF8F4600C05779 /* UIKit.framework */,
@@ -118,6 +134,14 @@
 				6F0B76D718CF8F4600C05779 /* ViewController.h */,
 				6F0B76D818CF8F4600C05779 /* ViewController.m */,
 				6F0B76DA18CF8F4600C05779 /* Images.xcassets */,
+				6F0B76F918CF98D400C05779 /* ChoiceViewControllerClear.h */,
+				6F0B76FA18CF98D400C05779 /* ChoiceViewControllerClear.m */,
+				6F0B76FC18CF98EA00C05779 /* ChoiceViewControllerEat.h */,
+				6F0B76FD18CF98EA00C05779 /* ChoiceViewControllerEat.m */,
+				6F0B76FF18CFA86000C05779 /* SuckerViewController.h */,
+				6F0B770018CFA86000C05779 /* SuckerViewController.m */,
+				6F0B770218CFA86F00C05779 /* SaturdayNightViewController.h */,
+				6F0B770318CFA86F00C05779 /* SaturdayNightViewController.m */,
 				6F0B76C918CF8F4600C05779 /* Supporting Files */,
 			);
 			path = Adventure;
@@ -249,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0B770418CFA86F00C05779 /* SaturdayNightViewController.m in Sources */,
 				6F0B76D918CF8F4600C05779 /* ViewController.m in Sources */,
+				6F0B770118CFA86000C05779 /* SuckerViewController.m in Sources */,
+				6F0B76FE18CF98EA00C05779 /* ChoiceViewControllerEat.m in Sources */,
 				6F0B76D318CF8F4600C05779 /* AppDelegate.m in Sources */,
 				6F0B76CF18CF8F4600C05779 /* main.m in Sources */,
+				6F0B76FB18CF98D400C05779 /* ChoiceViewControllerClear.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +406,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Jaime/MobileMakers/Adventure,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adventure/Adventure-Prefix.pch";
 				INFOPLIST_FILE = "Adventure/Adventure-Info.plist";
@@ -391,6 +423,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Jaime/MobileMakers/Adventure,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adventure/Adventure-Prefix.pch";
 				INFOPLIST_FILE = "Adventure/Adventure-Info.plist";
